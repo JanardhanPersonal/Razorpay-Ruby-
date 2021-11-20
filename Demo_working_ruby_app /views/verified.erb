@@ -1,0 +1,14 @@
+<h1>Your payment is verified</h1>
+
+puts payment_response
+# {
+#   :razorpay_order_id   => "test_order_id",
+#   :razorpay_payment_id => "test_payment_id",
+#   :razorpay_signature  => "signature"
+# }
+Razorpay::Utility.verify_payment_signature(payment_response)
+
+pay_INP4YqxY7QRnBt
+
+order_INOyop2tdoGBpO
+73ed3b827499dfc62b7d179a27c9ce286bf02d127482e67f1f7e316ce4ba722b
